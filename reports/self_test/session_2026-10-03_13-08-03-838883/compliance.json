@@ -1,0 +1,32 @@
+{
+  "acquisition_s": {
+    "label": "Acquisition \u2264 2 s",
+    "value": 0.1,
+    "limit": 2,
+    "status": "PASS"
+  },
+  "pointing_rmse_px": {
+    "label": "Pointing RMSE \u2264 10 px",
+    "value": 5.697,
+    "limit": 10,
+    "status": "PASS"
+  },
+  "target_loss_pct": {
+    "label": "Target loss < 5 %",
+    "value": 3.33,
+    "limit": 5,
+    "status": "PASS"
+  },
+  "max_reacquisition_s": {
+    "label": "Re-acquisition \u2264 1 s",
+    "value": null,
+    "limit": 1,
+    "status": "N/A"
+  },
+  "average_processing_fps": {
+    "label": "Processing \u2265 20 FPS",
+    "value": 217.82,
+    "limit": 20,
+    "status": "PASS"
+  }
+}

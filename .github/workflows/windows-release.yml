@@ -1,0 +1,39 @@
+name: Build Windows Standalone
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  windows-build:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11 x64
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          architecture: 'x64'
+          cache: 'pip'
+
+      - name: Build and verify both release formats
+        shell: powershell
+        run: .\build_release.ps1 -Mode both
+
+      - name: Upload Windows release package
+        uses: actions/upload-artifact@v4
+        with:
+          name: VCAPAT-PRO-Windows-x64
+          path: |
+            release/*.zip
+            release/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30

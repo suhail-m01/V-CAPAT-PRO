@@ -1,0 +1,110 @@
+{
+  "name": "Easy \u00b7 Clear Orbit",
+  "world": {
+    "width": 2000,
+    "height": 2000,
+    "background": "deep_space",
+    "star_density": 6e-05,
+    "seed": 42,
+    "solid_gray": 25
+  },
+  "target": {
+    "shape": "gaussian",
+    "size_px": 10,
+    "width_px": 10,
+    "height_px": 10,
+    "brightness": 245,
+    "trajectory": "circular",
+    "speed_pps": 60,
+    "initial_position": [
+      1020,
+      1000
+    ],
+    "count": 1,
+    "auto_handover": false,
+    "blink_hz": 0.0,
+    "initial_mode": "manual",
+    "boundary": "bounce",
+    "color_rgb": [
+      255,
+      255,
+      255
+    ],
+    "priorities": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "camera": {
+    "resolution": [
+      640,
+      480
+    ],
+    "fov_deg": [
+      4.0,
+      3.0
+    ],
+    "update_hz": 30,
+    "max_pan_speed": 5.0,
+    "max_tilt_speed": 5.0,
+    "initial_pan_deg": 0.0,
+    "initial_tilt_deg": 0.0,
+    "acceleration_deg_s2": 0.0,
+    "digital_zoom": 1.0,
+    "color": false
+  },
+  "disturbance": {
+    "atmosphere": "clear",
+    "noise_types": [],
+    "noise_std": 0,
+    "salt_pepper_pct": 0.02,
+    "camera_jitter_px": 0.0,
+    "platform_motion": "none",
+    "platform_amplitude_px": 0.0,
+    "platform_max_step_px": 20.0,
+    "contrast_scale": 1.0,
+    "brightness_offset": 0.0,
+    "occlusion_start_s": -1,
+    "occlusion_duration_s": 0,
+    "turbulence_r0": 0.15,
+    "sensor_enabled": false,
+    "sensor_qe": 0.8,
+    "sensor_read_noise_e": 2.0,
+    "sensor_dark_current_e_s": 1.0,
+    "sensor_exposure_s": 0.01,
+    "sensor_bit_depth": 8,
+    "hot_pixel_pct": 0.0,
+    "thermal_enabled": false,
+    "temperature_c": 20.0,
+    "thermal_coefficient_px_c": 0.15,
+    "spoof_enabled": false,
+    "spoof_offset_px": 60.0
+  },
+  "link": {
+    "point_ahead": false,
+    "distance_km": 1000.0,
+    "round_trip": true
+  },
+  "control": {
+    "kp": 14.0,
+    "ki": 0.3,
+    "kd": 0.12,
+    "deadband_deg": 0.0015,
+    "search_pattern": "spiral",
+    "assist_fraction": 0.0
+  },
+  "tracking": {
+    "process_noise": 12.0,
+    "measurement_noise": 5.0,
+    "hits_to_lock": 3,
+    "coast_after": 5,
+    "reacquire_after": 20
+  },
+  "detector": "adaptive",
+  "controller": "pid",
+  "duration_s": 60.0,
+  "seed": 42
+}

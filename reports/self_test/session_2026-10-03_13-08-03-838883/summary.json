@@ -1,0 +1,59 @@
+{
+  "source_mode": "simulator",
+  "duration_s": 2.0,
+  "total_frames": 60,
+  "processed_frames": 60,
+  "average_processing_fps": 217.82,
+  "minimum_processing_fps": 98.47,
+  "average_processing_ms": 4.59,
+  "maximum_processing_ms": 10.15,
+  "acquisition_s": 0.1,
+  "average_reacquisition_s": null,
+  "max_reacquisition_s": null,
+  "number_of_losses": 0,
+  "lock_retention_pct": 96.67,
+  "target_loss_pct": 3.33,
+  "centroid_rmse_px": 0.092,
+  "centroid_mean_px": 0.09,
+  "centroid_max_px": 0.133,
+  "pointing_rmse_px": 5.697,
+  "pointing_mean_px": 5.291,
+  "pointing_max_px": 20.089,
+  "ground_truth_available": true,
+  "metrics_note": "Processing FPS is 1000 / mean pipeline milliseconds, not capture/render cadence. Lock retention uses visible frames including initial acquisition.",
+  "scenario": "Easy \u00b7 Clear Orbit",
+  "seed": 42,
+  "handovers": 0,
+  "compliance": {
+    "acquisition_s": {
+      "label": "Acquisition \u2264 2 s",
+      "value": 0.1,
+      "limit": 2,
+      "status": "PASS"
+    },
+    "pointing_rmse_px": {
+      "label": "Pointing RMSE \u2264 10 px",
+      "value": 5.697,
+      "limit": 10,
+      "status": "PASS"
+    },
+    "target_loss_pct": {
+      "label": "Target loss < 5 %",
+      "value": 3.33,
+      "limit": 5,
+      "status": "PASS"
+    },
+    "max_reacquisition_s": {
+      "label": "Re-acquisition \u2264 1 s",
+      "value": null,
+      "limit": 1,
+      "status": "N/A"
+    },
+    "average_processing_fps": {
+      "label": "Processing \u2265 20 FPS",
+      "value": 217.82,
+      "limit": 20,
+      "status": "PASS"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+"""V-CAPAT core subsystem."""

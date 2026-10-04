@@ -1,0 +1,27 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 1, 4, 0),
+    prodvers=(1, 1, 4, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        u'040904B0',
+        [StringStruct(u'CompanyName', u'NeXGen Coders'),
+         StringStruct(u'FileDescription', u'V-CAPAT PRO - FSOC Virtual Camera Acquisition, Pointing & Tracking'),
+         StringStruct(u'FileVersion', u'1.1.4'),
+         StringStruct(u'InternalName', u'VCAPAT_PRO'),
+         StringStruct(u'LegalCopyright', u'Smart India Hackathon 2026 prototype'),
+         StringStruct(u'OriginalFilename', u'VCAPAT_PRO.exe'),
+         StringStruct(u'ProductName', u'V-CAPAT PRO'),
+         StringStruct(u'ProductVersion', u'1.1.4')])
+    ]),
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)

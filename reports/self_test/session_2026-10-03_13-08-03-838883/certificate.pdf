@@ -1,0 +1,71 @@
+%PDF-1.4
+%VCAPAT
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2401 >>
+stream
+0.035 0.077 0.115 rg 0 0 612 792 re f
+0.067 0.180 0.200 rg 0 755 612 37 re f
+BT /F2 12 Tf 0.440 0.910 0.770 rg 40 767 Td (V-CAPAT PRO     /     OPTICAL ACQUISITION LAB) Tj ET
+BT /F2 24 Tf 0.950 0.980 1.000 rg 40 705 Td (SESSION EVIDENCE REPORT) Tj ET
+BT /F1 10 Tf 0.550 0.700 0.780 rg 40 678 Td (COARSE ALIGNMENT  /  AUTOMATED METRIC ASSESSMENT) Tj ET
+0.200 0.150 0.130 rg 40 610 532 48 re f
+BT /F2 17 Tf 1.000 0.730 0.510 rg 55 628 Td (EVIDENCE INCOMPLETE) Tj ET
+BT /F2 11 Tf 0.910 0.950 0.970 rg 40 578 Td (SCENARIO   Easy ? Clear Orbit) Tj ET
+BT /F1 10 Tf 0.820 0.900 0.940 rg 40 558 Td (SOURCE     SIMULATOR    /    SEED 42) Tj ET
+BT /F1 10 Tf 0.820 0.900 0.940 rg 40 539 Td (DURATION   2.0 s   /    60 frames) Tj ET
+0.070 0.140 0.190 rg 40 473 532 46 re f
+BT /F2 10 Tf 0.820 0.900 0.940 rg 52 498 Td (Acquisition ? 2 s) Tj ET
+BT /F1 10 Tf 0.550 0.700 0.780 rg 52 483 Td (Measured: 0.1) Tj ET
+BT /F2 12 Tf 0.410 0.880 0.690 rg 482 490 Td (PASS) Tj ET
+0.070 0.140 0.190 rg 40 418 532 46 re f
+BT /F2 10 Tf 0.820 0.900 0.940 rg 52 443 Td (Pointing RMSE ? 10 px) Tj ET
+BT /F1 10 Tf 0.550 0.700 0.780 rg 52 428 Td (Measured: 5.697) Tj ET
+BT /F2 12 Tf 0.410 0.880 0.690 rg 482 435 Td (PASS) Tj ET
+0.070 0.140 0.190 rg 40 363 532 46 re f
+BT /F2 10 Tf 0.820 0.900 0.940 rg 52 388 Td (Target loss < 5 %) Tj ET
+BT /F1 10 Tf 0.550 0.700 0.780 rg 52 373 Td (Measured: 3.33) Tj ET
+BT /F2 12 Tf 0.410 0.880 0.690 rg 482 380 Td (PASS) Tj ET
+0.070 0.140 0.190 rg 40 308 532 46 re f
+BT /F2 10 Tf 0.820 0.900 0.940 rg 52 333 Td (Re-acquisition ? 1 s) Tj ET
+BT /F1 10 Tf 0.550 0.700 0.780 rg 52 318 Td (Measured: not established) Tj ET
+BT /F2 12 Tf 0.630 0.700 0.780 rg 482 325 Td (N/A) Tj ET
+0.070 0.140 0.190 rg 40 253 532 46 re f
+BT /F2 10 Tf 0.820 0.900 0.940 rg 52 278 Td (Processing ? 20 FPS) Tj ET
+BT /F1 10 Tf 0.550 0.700 0.780 rg 52 263 Td (Measured: 217.82) Tj ET
+BT /F2 12 Tf 0.410 0.880 0.690 rg 482 270 Td (PASS) Tj ET
+BT /F2 10 Tf 0.440 0.910 0.770 rg 40 132 Td (EVALUATION NOTES) Tj ET
+BT /F1 9 Tf 0.820 0.900 0.940 rg 40 113 Td (N/A never counts as a pass. Results apply to this run and configuration only.) Tj ET
+BT /F1 9 Tf 1.000 0.730 0.510 rg 40 95 Td (This is software-generated evidence, NOT an ISRO or flight-qualification certificate.) Tj ET
+0.200 0.360 0.390 rg 40 61 532 1 re f
+BT /F1 8 Tf 0.490 0.640 0.690 rg 40 44 Td (V-CAPAT PRO  /  DETERMINISTIC FSOC COARSE ALIGNMENT PROTOTYPE) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000017 00000 n 
+0000000066 00000 n 
+0000000123 00000 n 
+0000000259 00000 n 
+0000000329 00000 n 
+0000000404 00000 n 
+trailer
+<< /Root 1 0 R /Size 7 >>
+startxref
+2856
+%%EOF

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="620" viewBox="0 0 1060 620">
+<rect width="1060" height="620" fill="#081421"/>
+<text x="40" y="55" fill="#67e8c1" font-size="28" font-weight="bold" font-family="Arial">V-CAPAT PRO / SYSTEM FLOW</text>
+<text x="40" y="84" fill="#a2bdc9" font-size="14" font-family="Arial">Simulator, video and webcam use the same image-space detection and tracking pipeline</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#67e8c1"/></marker></defs>
+<g font-family="Arial" font-size="17" fill="#e7f2f4" text-anchor="middle">
+<rect x="42" y="130" width="220" height="88" rx="12" fill="#122735" stroke="#416679"/><text x="152" y="164">INPUT</text><text x="152" y="191" font-size="13" fill="#a5bdc7">simulator · MP4 · webcam</text>
+<rect x="318" y="130" width="220" height="88" rx="12" fill="#122735" stroke="#416679"/><text x="428" y="164">CV DETECTOR</text><text x="428" y="191" font-size="13" fill="#a5bdc7">threshold · top-hat · flow</text>
+<rect x="594" y="130" width="190" height="88" rx="12" fill="#122735" stroke="#416679"/><text x="689" y="164">TRACKER</text><text x="689" y="191" font-size="13" fill="#a5bdc7">Kalman · lock states</text>
+<rect x="826" y="130" width="190" height="88" rx="12" fill="#122735" stroke="#416679"/><text x="921" y="164">CONTROLLER</text><text x="921" y="191" font-size="13" fill="#a5bdc7">PID · point-ahead</text>
+<rect x="110" y="346" width="260" height="104" rx="12" fill="#152e38" stroke="#67e8c1"/><text x="240" y="384">VIRTUAL CAMERA</text><text x="240" y="414" font-size="13" fill="#a5bdc7">world · target · turbulence · ROI</text>
+<rect x="454" y="346" width="230" height="104" rx="12" fill="#152e38" stroke="#67e8c1"/><text x="569" y="384">METRICS</text><text x="569" y="414" font-size="13" fill="#a5bdc7">truth only here · N/A checks</text>
+<rect x="768" y="346" width="230" height="104" rx="12" fill="#152e38" stroke="#67e8c1"/><text x="883" y="384">INTERFACES</text><text x="883" y="414" font-size="13" fill="#a5bdc7">Qt · WebSocket · REST</text>
+</g>
+<g stroke="#67e8c1" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M262 174 H318"/><path d="M538 174 H594"/><path d="M784 174 H826"/><path d="M921 218 V282 H240 V346"/><path d="M240 346 V252 H152 V218"/><path d="M689 218 V346 H569"/><path d="M684 398 H768"/></g>
+<text x="40" y="551" font-family="Arial" font-size="13" fill="#8da7b5">Ground truth is excluded from detection and control; it is used for evaluation and selected-ID audit only.</text>
+<text x="40" y="576" font-family="Arial" font-size="13" fill="#8da7b5">Reports: CSV, indexed SQLite, JSON, charts and software evidence PDF.</text>
+</svg>

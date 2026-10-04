@@ -1,0 +1,12 @@
+[
+  {
+    "frame": 1,
+    "time_s": 0.03,
+    "event": "ACQUIRING"
+  },
+  {
+    "frame": 3,
+    "time_s": 0.1,
+    "event": "LOCKED"
+  }
+]

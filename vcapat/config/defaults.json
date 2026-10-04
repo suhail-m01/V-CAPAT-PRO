@@ -1,0 +1,64 @@
+{
+  "name": "Easy \u00b7 Clear Orbit",
+  "world": {
+    "width": 2000,
+    "height": 2000,
+    "background": "deep_space",
+    "star_density": 6e-05,
+    "seed": 42
+  },
+  "target": {
+    "shape": "square",
+    "size_px": 10,
+    "brightness": 245,
+    "trajectory": "circular",
+    "speed_pps": 60.0,
+    "initial_position": [
+      1020,
+      1000
+    ],
+    "count": 1,
+    "auto_handover": false,
+    "blink_hz": 0.0,
+    "width_px": 10,
+    "height_px": 10,
+    "initial_mode": "random"
+  },
+  "camera": {
+    "resolution": [
+      640,
+      480
+    ],
+    "fov_deg": [
+      4.0,
+      3.0
+    ],
+    "update_hz": 30,
+    "max_pan_speed": 5.0,
+    "max_tilt_speed": 5.0
+  },
+  "disturbance": {
+    "atmosphere": "clear",
+    "noise_types": [],
+    "noise_std": 5.0,
+    "salt_pepper_pct": 0.02,
+    "camera_jitter_px": 0.0,
+    "platform_motion": "none",
+    "platform_amplitude_px": 0.0,
+    "occlusion_start_s": -1.0,
+    "occlusion_duration_s": 0.0,
+    "turbulence_r0": 0.15,
+    "platform_max_step_px": 20.0,
+    "contrast_scale": 1.0,
+    "brightness_offset": 0.0
+  },
+  "link": {
+    "point_ahead": false,
+    "distance_km": 1000.0,
+    "round_trip": true
+  },
+  "detector": "ai_auto",
+  "controller": "pid",
+  "duration_s": 60.0,
+  "seed": 42
+}

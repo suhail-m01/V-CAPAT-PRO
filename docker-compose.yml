@@ -1,0 +1,8 @@
+services:
+  vcapat-pro:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./reports:/app/reports
+    restart: unless-stopped

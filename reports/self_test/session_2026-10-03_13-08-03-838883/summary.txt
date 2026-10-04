@@ -1,0 +1,27 @@
+Processed 60 frames over 2.0 simulated seconds. Error RMSE of 5.697 px is within the ten-pixel budget for this run. No completed loss/recovery event was measured; reacquisition remains unverified.
+
+source_mode: simulator
+duration_s: 2.0
+total_frames: 60
+processed_frames: 60
+average_processing_fps: 217.82
+minimum_processing_fps: 98.47
+average_processing_ms: 4.59
+maximum_processing_ms: 10.15
+acquisition_s: 0.1
+average_reacquisition_s: None
+max_reacquisition_s: None
+number_of_losses: 0
+lock_retention_pct: 96.67
+target_loss_pct: 3.33
+centroid_rmse_px: 0.092
+centroid_mean_px: 0.09
+centroid_max_px: 0.133
+pointing_rmse_px: 5.697
+pointing_mean_px: 5.291
+pointing_max_px: 20.089
+ground_truth_available: True
+metrics_note: Processing FPS is 1000 / mean pipeline milliseconds, not capture/render cadence. Lock retention uses visible frames including initial acquisition.
+scenario: Easy · Clear Orbit
+seed: 42
+handovers: 0

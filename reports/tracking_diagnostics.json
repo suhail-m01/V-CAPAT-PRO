@@ -1,0 +1,307 @@
+[
+  {
+    "scenario": "category5_everything",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 22.64,
+    "centroid_rmse_px": 15.717,
+    "loss_pct": 10.0,
+    "fps": 14.62,
+    "reacquisition_s": null,
+    "false_visible_locks": 28,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "FAIL",
+      "target_loss_pct": "FAIL",
+      "max_reacquisition_s": "N/A",
+      "average_processing_fps": "FAIL"
+    },
+    "wall_s": 20.8
+  },
+  {
+    "scenario": "constellation_five",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 2.949,
+    "centroid_rmse_px": 0.463,
+    "loss_pct": 0.67,
+    "fps": 200.44,
+    "reacquisition_s": null,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "N/A",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 1.6
+  },
+  {
+    "scenario": "easy_clear_circular",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 5.724,
+    "centroid_rmse_px": 0.096,
+    "loss_pct": 0.67,
+    "fps": 307.83,
+    "reacquisition_s": null,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "N/A",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 1.1
+  },
+  {
+    "scenario": "emergency_maneuver",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 9.323,
+    "centroid_rmse_px": 3.204,
+    "loss_pct": 0.74,
+    "fps": 51.11,
+    "reacquisition_s": 0.867,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "PASS",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 6.0
+  },
+  {
+    "scenario": "extreme_multi_target_occlusion",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 19.462,
+    "centroid_rmse_px": 0.107,
+    "loss_pct": 0.71,
+    "fps": 70.64,
+    "reacquisition_s": 0.533,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "FAIL",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "PASS",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 4.4
+  },
+  {
+    "scenario": "formation_flight",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 3.226,
+    "centroid_rmse_px": 0.078,
+    "loss_pct": 0.67,
+    "fps": 70.83,
+    "reacquisition_s": null,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "N/A",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 4.4
+  },
+  {
+    "scenario": "handover_sequence",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 6.287,
+    "centroid_rmse_px": 0.405,
+    "loss_pct": 0.71,
+    "fps": 82.06,
+    "reacquisition_s": 0.533,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "PASS",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 3.8
+  },
+  {
+    "scenario": "hard_full_chaos",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "COASTING",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 3.309,
+    "centroid_rmse_px": 0.118,
+    "loss_pct": 0.74,
+    "fps": 67.25,
+    "reacquisition_s": 0.167,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "PASS",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 4.6
+  },
+  {
+    "scenario": "iss_overpass",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 36.002,
+    "centroid_rmse_px": 0.095,
+    "loss_pct": 7.33,
+    "fps": 74.3,
+    "reacquisition_s": 0.533,
+    "false_visible_locks": 4,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "FAIL",
+      "target_loss_pct": "FAIL",
+      "max_reacquisition_s": "PASS",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 4.2
+  },
+  {
+    "scenario": "loitering_uav",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 1.904,
+    "centroid_rmse_px": 0.081,
+    "loss_pct": 0.67,
+    "fps": 77.52,
+    "reacquisition_s": null,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "N/A",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 4.0
+  },
+  {
+    "scenario": "medium_foggy_figure8",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 8.841,
+    "centroid_rmse_px": 0.224,
+    "loss_pct": 0.67,
+    "fps": 75.41,
+    "reacquisition_s": null,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "N/A",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 4.1
+  },
+  {
+    "scenario": "needle_in_haystack",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 7.474,
+    "centroid_rmse_px": 0.18,
+    "loss_pct": 0.67,
+    "fps": 235.16,
+    "reacquisition_s": null,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "N/A",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 1.4
+  },
+  {
+    "scenario": "total_blackout",
+    "mode": "simulator",
+    "frames": 300,
+    "end_state": "LOCKED",
+    "acquisition_s": 0.1,
+    "pointing_rmse_px": 19.495,
+    "centroid_rmse_px": 0.094,
+    "loss_pct": 0.95,
+    "fps": 241.68,
+    "reacquisition_s": 2.867,
+    "false_visible_locks": 0,
+    "checks": {
+      "acquisition_s": "PASS",
+      "pointing_rmse_px": "FAIL",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "FAIL",
+      "average_processing_fps": "PASS"
+    },
+    "wall_s": 1.4
+  },
+  {
+    "scenario": "bundled_video_with_ground_truth",
+    "mode": "video",
+    "frames": 120,
+    "end_state": "LOCKED",
+    "centroid_rmse_px": 0.121,
+    "loss_pct": 1.67,
+    "fps": 258.78,
+    "checks": {
+      "acquisition_s": "PASS",
+      "centroid_rmse_px": "PASS",
+      "target_loss_pct": "PASS",
+      "max_reacquisition_s": "N/A",
+      "average_processing_fps": "PASS"
+    }
+  },
+  {
+    "scenario": "bundled_video_without_ground_truth",
+    "mode": "video",
+    "frames": 120,
+    "end_state": "LOCKED",
+    "centroid_rmse_px": null,
+    "loss_pct": null,
+    "fps": 265.11,
+    "checks": {
+      "acquisition_s": "N/A",
+      "centroid_rmse_px": "N/A",
+      "target_loss_pct": "N/A",
+      "max_reacquisition_s": "N/A",
+      "average_processing_fps": "PASS"
+    }
+  }
+]

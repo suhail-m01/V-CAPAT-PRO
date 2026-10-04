@@ -1,0 +1,12 @@
+{
+  "name": "PS Compliant Reference Mission",
+  "world": {"width": 2000, "height": 2000, "background": "deep_space", "star_density": 0.00006, "seed": 26169},
+  "target": {"shape": "square", "size_px": 10, "width_px": 10, "height_px": 10, "brightness": 245, "trajectory": "figure8", "speed_pps": 55.0, "initial_position": [1000,1000], "count": 1, "auto_handover": false, "blink_hz": 0.0, "initial_mode": "random", "boundary": "bounce", "color_rgb": [255,255,255], "priorities": [0,1,2,3,4]},
+  "camera": {"resolution": [640,480], "fov_deg": [4.0,3.0], "update_hz": 30, "max_pan_speed": 5.0, "max_tilt_speed": 5.0, "initial_pan_deg": 0.0, "initial_tilt_deg": 0.0, "acceleration_deg_s2": 0.0, "digital_zoom": 1.0, "color": false},
+  "disturbance": {"atmosphere": "haze", "noise_types": ["gaussian","poisson","salt_pepper"], "noise_std": 8.0, "salt_pepper_pct": 0.02, "camera_jitter_px": 3.0, "platform_motion": "linear", "platform_amplitude_px": 8.0, "platform_max_step_px": 20.0, "contrast_scale": 0.92, "brightness_offset": -4.0, "occlusion_start_s": -1.0, "occlusion_duration_s": 0.0, "turbulence_r0": 0.15},
+  "link": {"point_ahead": false, "distance_km": 1000.0, "round_trip": true},
+  "detector": "ai_auto",
+  "controller": "pid",
+  "duration_s": 60.0,
+  "seed": 26169
+}

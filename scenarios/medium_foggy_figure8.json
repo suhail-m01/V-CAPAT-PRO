@@ -1,0 +1,27 @@
+{
+  "name": "Medium \u00b7 Fog / Figure Eight",
+  "seed": 43,
+  "world": {
+    "seed": 43,
+    "star_density": 6e-05
+  },
+  "target": {
+    "trajectory": "figure8",
+    "count": 1,
+    "initial_position": [
+      1020,
+      1000
+    ],
+    "size_px": 10,
+    "speed_pps": 60
+  },
+  "disturbance": {
+    "atmosphere": "fog",
+    "noise_types": [
+      "gaussian"
+    ],
+    "noise_std": 3,
+    "occlusion_start_s": -1,
+    "occlusion_duration_s": 0
+  }
+}

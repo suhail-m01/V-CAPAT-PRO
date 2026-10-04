@@ -1,0 +1,27 @@
+{
+  "name": "Hard \u00b7 Full Chaos",
+  "seed": 44,
+  "world": {
+    "seed": 44,
+    "star_density": 0.00015
+  },
+  "target": {
+    "trajectory": "random",
+    "count": 1,
+    "initial_position": [
+      1020,
+      1000
+    ],
+    "size_px": 10,
+    "speed_pps": 60
+  },
+  "disturbance": {
+    "atmosphere": "rain",
+    "noise_types": [
+      "gaussian"
+    ],
+    "noise_std": 9,
+    "occlusion_start_s": 9,
+    "occlusion_duration_s": 1.2
+  }
+}

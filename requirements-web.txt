@@ -1,0 +1,5 @@
+numpy>=1.26,<3
+opencv-python-headless>=4.8,<5
+matplotlib>=3.8,<4
+qrcode[pil]>=7.4,<9
+sgp4>=2.24,<3
