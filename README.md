@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # V-CAPAT PRO · v1.1.4 MVP
-
+#Deployed Link: https://v-capat-pro.onrender.com/
 **Virtual Camera Acquisition, Pointing And Tracking** — a deployable FSOC coarse-alignment MVP aligned to SIH26169, with requirement-enforced simulation, AI-assisted beacon candidate ranking, tracking/control, benchmark-video evaluation and automatic evidence reports. [Browse the complete project tree](docs/Project_Tree.md) and [view the architecture diagram](docs/Architecture_Diagrams/architecture.svg).
 
 > **Scope:** this is a hackathon/research MVP, not an ISRO-certified flight system. The supplied problem-statement items are mapped in [PS Compliance Matrix](docs/PS_Compliance_Matrix.md); scientific limitations remain explicit.
@@ -94,4 +93,3 @@ Run `build_release.bat`. Release metadata now lives under `packaging/` and is no
 =======
 # V-CAPAT-PRO
 V-CAPAT PRO Virtual Camera Acquisition, Pointing &amp; Tracking System for Mobile FSOC Terminals  SIH PS: SIH26169  This release contains the Windows executable version of the V-CAPAT.  Recommended: VCAPAT_PRO_v1.1.4_Windows_x64.zip  Also include: Single-file Windows executable package SHA-256 checksums Technical report User documentation.
->>>>>>> 881c8a036a489c5a8876960043f11f79007a4867
